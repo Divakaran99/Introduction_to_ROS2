@@ -1,9 +1,8 @@
 # ROS2 Fundamentals Tutorial
-## A Comprehensive 4-Hour Hands-On Lab Guide
+## A Comprehensive Lab Guide
 
-**Target Audience:** MSc Students - Robotics/Autonomous Systems Module  
 **Duration:** 4 Hours  
-**Hardware Required:** None - Pure software tutorial  
+**Hardware Required:** None 
 **Software Required:** 
 - Ubuntu 22.04 (native or VM)
 - ROS2 Humble Hawksbill
