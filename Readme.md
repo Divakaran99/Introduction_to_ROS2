@@ -13,14 +13,14 @@
 
 ## Table of Contents
 
-1. [Hour 1: ROS2 Basics - Nodes, Topics, and Communication](#hour-1-ros2-basics---nodes-topics-and-communication)
-2. [Hour 2: Services and Parameters](#hour-2-services-and-parameters)
-3. [Hour 3: Actions and Advanced Concepts](#hour-3-actions-and-advanced-concepts)
-4. [Hour 4: RViz and Complete Integration](#hour-4-rviz-and-complete-integration)
+1. [1: ROS2 Basics - Nodes, Topics, and Communication](#1-ros2-basics---nodes-topics-and-communication)
+2. [2: Services and Parameters](#2-services-and-parameters)
+3. [3: Actions and Advanced Concepts](#3-actions-and-advanced-concepts)
+4. [4: RViz and Complete Integration](#4-rviz-and-complete-integration)
 
 ---
 
-# HOUR 1: ROS2 Basics - Nodes, Topics, and Communication
+# 1: ROS2 Basics - Nodes, Topics, and Communication
 
 ## Learning Objectives
 - Understand ROS2 architecture and philosophy
@@ -937,7 +937,7 @@ ros2 topic echo /temperature
 
 ---
 
-# HOUR 2: Services and Parameters
+# 2: Services and Parameters
 
 ## Learning Objectives
 - Understand service request/response pattern
@@ -1775,7 +1775,7 @@ ros2 service call /calculate example_interfaces/srv/AddTwoInts "{a: 7, b: 6}"
 
 ---
 
-# HOUR 3: Actions and Advanced Concepts
+# 3: Actions and Advanced Concepts
 
 ## Learning Objectives
 - Understand action servers and clients
@@ -2312,7 +2312,7 @@ if __name__ == '__main__':
 
 ---
 
-# HOUR 4: RViz and Complete Integration
+# 4: RViz and Complete Integration
 
 ## Learning Objectives
 - Master RViz visualization tool
@@ -2936,7 +2936,7 @@ ros2 param list
 
 ## Summary and Key Takeaways
 
-### Hour 1: Fundamentals
+### 1: Fundamentals
 ✅ ROS2 architecture and philosophy  
 ✅ Nodes and their lifecycle  
 ✅ Topics and pub/sub pattern  
@@ -2944,21 +2944,21 @@ ros2 param list
 ✅ Colcon build system  
 ✅ Command-line tools
 
-### Hour 2: Services and Parameters
+### 2: Services and Parameters
 ✅ Service request/response pattern  
 ✅ Creating servers and clients  
 ✅ Parameter configuration  
 ✅ Dynamic reconfiguration  
 ✅ Launch files
 
-### Hour 3: Actions
+### 3: Actions
 ✅ Action servers and clients  
 ✅ Long-running tasks  
 ✅ Feedback and cancellation  
 ✅ Goal management  
 ✅ Complex workflows
 
-### Hour 4: Visualization and Integration
+### 4: Visualization and Integration
 ✅ RViz configuration  
 ✅ Marker visualization  
 ✅ Complete system integration  
