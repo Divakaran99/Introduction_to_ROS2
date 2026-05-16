@@ -760,7 +760,7 @@ ros2 interface package std_msgs
 **General Commands:**
 ```bash
 # Get ROS2 version
-ros2 --version
+echo $ROS_DISTRO
 
 # Doctor - check ROS2 setup
 ros2 doctor
