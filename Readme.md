@@ -134,8 +134,8 @@ echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
 # Verify installation
-ros2 --version
-# Should output: ros2 doctor version <version>
+echo $ROS_DISTRO
+
 
 # Test with demo nodes
 ros2 run demo_nodes_cpp talker
